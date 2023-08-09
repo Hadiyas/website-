@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover personalized luxury gift boxes that reflect your sentiments. Curated with watches, bath and home linen, perfumes, electronics, and more.">
   <title>Hadiyahs Personalized Luxury Gift Boxes</title>
   <link href="https://fonts.googleapis.com/css2?family=FS+Kim:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -27,24 +28,27 @@
     .section.show {
       opacity: 1;
     }
-    .header {
-      background-color: #11151C;
-      color: #DFDFD8;
-      border-radius: 0px;
-      margin: 0;
-      min-height: 70vh;
+    .section.lift-up {
+      transform: translateY(0);
+      transition: transform 0.3s ease-out;
     }
-    .coming-soon {
+    .section.lift-up:hover {
+      transform: translateY(-10px);
+    }
+    .header, .coming-soon {
       background-color: #11151C;
       color: #DFDFD8;
-      border-radius: 0px;
+      border-radius: 0;
       margin: 0;
       min-height: 50vh;
+    }
+    .header {
+      min-height: 70vh;
     }
     .about-us {
       background-color: #DFDFD8;
       color: #11151C;
-      border-radius: 0px;
+      border-radius: 0;
       margin: 0;
       min-height: 50vh;
     }
@@ -139,7 +143,7 @@
       background-color: #855832;
       color: #DFDFD8;
       border: 1px solid #855832;
-      border-radius: 0px;
+      border-radius: 0;
       text-decoration: none;
       text-align: center;
       transform: translateZ(0);
@@ -154,96 +158,96 @@
       font-size: 24px;
       margin-bottom: 20px;
     }
-
-    /* Lift-up effect */
-    .section.lift-up {
-      transform: translateY(0);
-      transition: transform 0.3s ease-out;
-    }
-
-    .section.lift-up:hover {
-      transform: translateY(-10px);
-    }
   </style>
 </head>
 <body>
-  <div class="announcement-bar">Welcome to our store</div>
-  <div class="section image-space lift-up"></div>
-  <div class="section header show lift-up">
-    <h1 class="heading">Hadiyahs Personalized Luxury Gift Boxes</h1>
-    <p class="subheading">Our curated gift boxes are more than just presents; they're a work of art that reflects your sentiments perfectly. Each box is a blend of carefully selected watches, luxurious bath and home linen, captivating perfumes, cutting-edge electronics, premium skincare products, and more. It's a celebration of style, beauty, and functionality, tailored to make hearts flutter and eyes sparkle.</p>
-    <a class="button" href="https://www.instagram.com/hadiyahs_giftboxes/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Learn More</a>
-  </div>
-  <div class="section about-us show lift-up">
-    <h2 class="heading">About Us</h2>
-    <p class="text">We are dedicated to providing you with the latest and greatest information in a variety of fields.</p>
-    <a class="button" href="https://www.instagram.com/hadiyahs_giftboxes/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Get to Know Us</a>
-  </div>
-  <div class="section coming-soon show lift-up">
-    <h1 class="heading">Coming Soon</h1>
-    <p class="text">Our website is on the brink of unveiling a seamless way to order your personalized luxury gift boxes online. Stay tuned for the exciting launch!</p>
-  </div>
-  <div class="section testimonial show lift-up">
-    <div class="section testimonial show">
-      <h2 class="testimonial-heading">What Our Customers Say</h2>
-      <div class="testimonial-grid">
-        <div class="testimonial-box">
-          <div class="testimonial-content">
-            <i class="fas fa-quote-left quote"></i>
-            <p>Amazing service! I received a stunning gift box that exceeded my expectations. Every item was thoughtfully selected and beautifully presented.</p>
-            <div class="testimonial-image">
-              <img src="New folder/5-star-rating-review-star-transparent-free-png.webp" alt="Testimonial 1">
+  <header>
+    <div class="announcement-bar">Welcome to our store</div>
+    <div class="section image-space lift-up"></div>
+    <div class="section header show lift-up">
+      <h1 class="heading">Hadiyahs Personalized Luxury Gift Boxes</h1>
+      <p class="subheading">Our curated gift boxes are more than just presents; they're a work of art that reflects your sentiments perfectly. Each box is a blend of carefully selected watches, luxurious bath and home linen, captivating perfumes, cutting-edge electronics, premium skincare products, and more. It's a celebration of style, beauty, and functionality, tailored to make hearts flutter and eyes sparkle.</p>
+      <a class="button" href="https://www.instagram.com/hadiyahs_giftboxes/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Learn More</a>
+    </div>
+  </header>
+  <main>
+    <div class="section about-us show lift-up">
+      <h2 class="heading">About Us</h2>
+      <p class="text">Welcome to Hadiyahs, your gateway to exquisite personalized luxury gift boxes that embody your sentiments with unparalleled elegance. We believe in the power of thoughtfully curated gifts that speak volumes about the emotions you hold for your loved ones.</p>
+      <p class="text">With a blend of creativity, innovation, and passion, we have crafted a unique collection of gift boxes that go beyond ordinary presents. Each box is a masterpiece, carefully designed to capture the essence of celebration, appreciation, and joy.</p>
+      <p class="text">Our journey started with a vision to redefine gifting, transforming it into an art form that resonates deeply with both the giver and the receiver. Every item within our luxurious gift boxes is meticulously selected, ensuring that it reflects the highest standards of quality and elegance.</p>
+      <p class="text">From premium watches that adorn wrists to captivating fragrances that linger in memories, from cutting-edge electronics that redefine convenience to indulgent skincare products that pamper the senses – every element within our gift boxes has been chosen with love and care.</p>
+      <a class="button" href="https://www.instagram.com/hadiyahs_giftboxes/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Discover Our Collections</a>
+    </div>    
+    <div class="section coming-soon show lift-up">
+      <h1 class="heading">Coming Soon</h1>
+      <p class="text">Our website is on the brink of unveiling a seamless way to order your personalized luxury gift boxes online. Stay tuned for the exciting launch!</p>
+    </div>
+    <div class="section testimonial show lift-up">
+      <div class="section testimonial show">
+        <h2 class="testimonial-heading">What Our Customers Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-box">
+            <div class="testimonial-content">
+              <i class="fas fa-quote-left quote"></i>
+              <p>Amazing service! I received a stunning gift box that exceeded my expectations. Every item was thoughtfully selected and beautifully presented.</p>
+              <div class="testimonial-image">
+                <img src="New folder/5-star-rating-review-star-transparent-free-png.webp" alt="Testimonial 1">
+              </div>
+              <p class="customer-name">Sarah Al-Falah</p>
             </div>
-            <p class="customer-name">Sarah Al-Falah</p>
           </div>
-        </div>
-        <div class="testimonial-box">
-          <div class="testimonial-content">
-            <i class="fas fa-quote-left quote"></i>
-            <p>Couldn't be happier with my gift box. The attention to detail and quality of the products are exceptional. Highly recommended!</p>
-            <div class="testimonial-image">
-              <img src="New folder/5-star-rating-review-star-transparent-free-png.webp" alt="Testimonial 2">
+          <div class="testimonial-box">
+            <div class="testimonial-content">
+              <i class="fas fa-quote-left quote"></i>
+              <p>Couldn't be happier with my gift box. The attention to detail and quality of the products are exceptional. Highly recommended!</p>
+              <div class="testimonial-image">
+                <img src="New folder/5-star-rating-review-star-transparent-free-png.webp" alt="Testimonial 2">
+              </div>
+              <p class="customer-name">Ahmed Khalifa</p>
             </div>
-            <p class="customer-name">Ahmed Khalifa</p>
           </div>
-        </div>
-        <div class="testimonial-box">
-          <div class="testimonial-content">
-            <i class="fas fa-quote-left quote"></i>
-            <p>Absolutely loved my personalized gift box. It made the perfect present for my friend's birthday. The packaging was elegant and the contents were delightful.</p>
-            <div class="testimonial-image">
-              <img src="New folder/5-star-rating-review-star-transparent-free-png.webp" alt="Testimonial 3">
+          <div class="testimonial-box">
+            <div class="testimonial-content">
+              <i class="fas fa-quote-left quote"></i>
+              <p>Absolutely loved my personalized gift box. It made the perfect present for my friend's birthday. The packaging was elegant and the contents were delightful.</p>
+              <div class="testimonial-image">
+                <img src="New folder/5-star-rating-review-star-transparent-free-png.webp" alt="Testimonial 3">
+              </div>
+              <p class="customer-name">Layla Nasr</p>
             </div>
-            <p class="customer-name">Layla Nasr</p>
           </div>
         </div>
       </div>
-    </div>
+  </main>
+  <footer>
     <div class="footer">
       <p>&copy; 2023, Hadiyahs Powered by Shopify</p>
     </div>
-    <script>
-      function revealSections() {
-        const sections = document.querySelectorAll('.section');
-        sections.forEach(section => {
-          if (isElementInViewport(section)) {
-            section.classList.add('show');
-          }
-        });
-      }
+  </footer>
+  <script>
+    function revealSections() {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => {
+        if (isElementInViewport(section)) {
+          section.classList.add('show');
+        }
+      });
+    }
   
-      function isElementInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-          rect.top >= 0 &&
-          rect.left >= 0 &&
-          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-      }
+    function isElementInViewport(element) {
+      const rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+  
     window.addEventListener('scroll', revealSections);
     window.addEventListener('resize', revealSections);
-
+  
     revealSections(); // Initial check
   </script>
 </body>
