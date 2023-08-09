@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1024">
+  <title>Coming Soon - Hadiyahs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset default margins and paddings */
+    body, h1, p {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f7f7f7;
+      color: #333333;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    .announcement-bar {
+      background-color: #f1d6ab;
+      color: #333333;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.5s;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    .intro-section {
+      background-color: #fff4e6;
+      color: #333333;
+      text-align: center;
+      padding: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+      font-family: "Playfair Display", serif;
+      animation: fadeInUp 1.5s ease-in-out;
+      position: relative;
+      z-index: 1;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .intro-content {
+      max-width: 80%;
+      margin: 0 auto;
+      font-family: "Poppins", sans-serif;
+    }
+    @media (max-width: 768px) {
+      .intro-section {
+        font-size: 1.5em;
+        height: auto;
+      }
+      .intro-content {
+        max-width: 90%;
+        padding: 20px;
+      }
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+      animation: fadeIn 2s ease-in-out;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1s, transform 1s;
+      position: relative;
+      z-index: 2;
+      margin-top: -50px;
+      background-color: #fef6e3;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+    .container p {
+      margin-bottom: 20px;
+    }
+    .footer {
+      background-color: #f1d6ab;
+      color: #333333;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes fadeInUp {
+      0% {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .welcome-text {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.5em;
+      animation: slideDown 2s ease-in-out;
+    }
+    @keyframes slideDown {
+      0% {
+        transform: translateX(-50%) translateY(-100%);
+      }
+      100% {
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="announcement-bar animate__animated animate__fadeInDown">Coming Soon</div>
+  <div class="intro-section animate__animated animate__fadeIn">
+    <div class="intro-content">
+      <h1 style="color: #ff8c42; font-size: 2.5em; margin-bottom: 0.3em;">WELCOME TO <br> HADIYAHS</h1>
+      <p style="color: #ffab70; font-size: 1.2em;">Discover the World of Personalized Luxury Gifts</p>
+    </div>
+  </div>
+  <div class="container">
+    <p>Welcome to the world of "Hadiyahs," where the art of gifting transcends the ordinary and embraces the extraordinary. We are thrilled to bring you a haven of Personalized Luxury Gift Boxes meticulously curated to capture the essence of elegance, thoughtfulness, and sophistication.</p>
+    <p>At "Hadiyahs," we believe that every gift holds a story, a sentiment, and a unique connection. Our vision is to elevate the act of gifting to a level of curated excellence, where each box is a work of art, a treasure trove of emotions waiting to be unveiled.</p>
+    <p>Discover Curated Elegance:
+      With an intricate blend of the finest watches, luxurious bath and home linen, captivating perfumes, cutting-edge electronics, premium skincare products, and more, our gift boxes are designed to encapsulate the magic of each occasion. Our personalized touch adds an extra layer of warmth, ensuring your gift is a reflection of your affection and consideration.</p>
+    <p><strong>Coming Soon:</strong>
+        <br>Our website is on the brink of unveiling this captivating journey. A realm where you can explore, create, and craft personalized gift boxes that mirror your emotions and preferences. Immerse yourself in the world of "Hadiyahs" as we redefine the way you express your appreciation, celebrate milestones, and make memories.</p>
+    <p>Prepare to embark on a journey of personalized luxury that transcends the ordinary and embraces curated elegance. Stay tuned for the grand opening of "Hadiyahs," where each box is an exquisite masterpiece, and every gift is an eloquent story waiting to be told.</p>
+    <p>Elegance, Personalized. Coming Soon.</p>
+    <p>Warm Regards,<br>The "Hadiyahs" Team</p>
+  </div>
+  <div class="footer">
+    <p>&copy; 2023 Hadiyahs. All rights reserved.</p>
+  </div>
+  <script>
+    const container = document.querySelector(".container");
+    const announcementBar = document.querySelector(".announcement-bar");
+
+    function handleScroll() {
+      const containerPosition = container.getBoundingClientRect().top;
+      if (containerPosition < window.innerHeight - 100) {
+        container.style.opacity = 1;
+        container.style.transform = "translateY(0)";
+        announcementBar.style.opacity = 1;
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll);
+
+    handleScroll(); // Initial check
+  </script>
+</body>
+</html>
